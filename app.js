@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.send('🚀January Cohort CI/CD Deployment Successful!');
+  res.send('🚀January Cohort CI/CD Deployment Successful! We just added a new feature!!!');
 });
 
 app.listen(PORT, () => {
